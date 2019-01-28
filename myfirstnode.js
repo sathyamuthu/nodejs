@@ -1,5 +1,7 @@
-function test1(res)
-{
-	console.log(res);
-}
-test1('Hello World');
+fs = require('fs');
+var parser = require('xml2json');
+
+fs.readFile( './data.xml', function(err, data) {
+    var json = parser.toJson(data);
+    console.log("to json ->", json);
+ });
