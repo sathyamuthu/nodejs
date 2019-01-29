@@ -1,11 +1,26 @@
 {
   "name": "nodejs-test",
   "version": "1.0.0",
-  "description": "learning ",
-  "main": "myfirstnode.js",
+  "main": "config.inc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sathya",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathyamuthu/nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathyamuthu/nodejs/issues"
+  },
+  "homepage": "https://github.com/sathyamuthu/nodejs#readme",
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "mysql": "^2.16.0",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {},
+  "description": ""
 }

@@ -1,4 +1,4 @@
-fs = require('fs');
+var fs = require('fs');
 var parser = require('xml2json');
 var adb = require('./config.inc.js');
 
